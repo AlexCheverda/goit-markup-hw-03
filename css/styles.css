@@ -35,20 +35,15 @@ html {
 }
 
 body {
-    background-color: var(--hero-txt-cl);
-    color: var(--main-txt-cl);
-    font-family: var(--maim-font);
     margin: 0;
-      
+    font-family: var(--maim-font);
+    background-color: var(--hero-txt-cl);
+    color: var(--main-txt-cl);    
 }
 
 .container {
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
     width: 1200px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* padding: 0 15px; */
+    padding: 0 15px;
     margin: 0 auto;
     outline: 2px solid turquoise;
 }
@@ -201,6 +196,7 @@ ul {
 
 .team {
     background-color: var(--secondary-bg-cl);
+    justify-content: center;
 }
 
 .team-card {
@@ -226,6 +222,32 @@ ul {
     letter-spacing: var(--ls-primary);
     
     color: var(--secondary-txt-cl);
+}
+
+.card-set {
+    display: flex;
+    margin-left: 0px;
+    margin-top: -25px;
+    padding: 0;
+    
+
+}
+
+.team-card {
+    
+    margin-left: 0;
+    margin-right: 30px;
+    margin-bottom: 90px;
+ }
+
+.team-card:last-child {
+    margin-right: 0;
+}
+
+.team .section-title {
+    padding-top: 97px;
+    padding-bottom: 50px;
+
 }
 
 /* ПОРТФОЛИО */
