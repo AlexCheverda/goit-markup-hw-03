@@ -22,13 +22,12 @@
   <body>
     <!-- HEADER -->
     
-      <header class="header">
-        <div class="container">
+      <header class="page-header">
+        <nav class="container main-nav">
         <a href="./index.html" class="link-logo" aria-label="Логотип сайта Web Studio">
           <p class="logo">Web<span class="header-logo">Studio</span></p>
         </a>
-        <nav class="navigation">
-          <ul class="list">
+          <ul class="site-nav list">
             <li class="item">
               <a href="./index.html" class="link current">Студия</a>
             </li>
@@ -39,53 +38,56 @@
               <a href="" class="link">Контакты</a>
             </li>
           </ul>
+          <ul class="header-group list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a href="tel+380961111111" class="contact-link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        
         </nav>
-        <div class="header-group">
-          <a href="tel+380961111111" class="contact-link">+38 096 111 11 11</a>
-          <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-        </div>
-        </div>
-
       </header>
   
     <main>
       <!-- HERO -->
       
         <section class="hero">
-          <div class="container">
-          <h1 class="hero-title">
-            Эффективные решения <br />
-            для вашего бизнеса
+          <div class="container main-hero">
+          <h1 class="hero-title">Эффективные решения<br />для вашего бизнеса
           </h1>
+          <!-- <a href="" class="btn">Заказать услугу</a> -->
+          
           <button class="btn" type="button">Заказать услугу</button>
           </div>
         </section>
             <!-- ABOUT -->
       
-        <section class="section">
-          <div class="container">
+        <section class="about">
+          <div class="container about">
           <h2 class="section-title" hidden>Особенности</h2>
-          <ul class="list">
+          <ul class="about-list list">
             <li class="item">
-              <h3 class="about">Внимание к деталям</h3>
+              <h3 class="about-txt">Внимание к деталям</h3>
               <p class="section-txt">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li class="item">
-              <h3 class="about">Пунктуальность</h3>
+              <h3 class="about-txt">Пунктуальность</h3>
               <p class="section-txt">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li class="item">
-              <h3 class="about">Планирование</h3>
+              <h3 class="about-txt">Планирование</h3>
               <p class="section-txt">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="item">
-              <h3 class="about">Современные технологии</h3>
+              <h3 class="about-txt">Современные технологии</h3>
               <p class="section-txt">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
@@ -96,10 +98,10 @@
       
       <!-- WORK -->
       
-        <section class="section">
-          <div class="container">
+        <section class="section no-padding">
+          <div class="container work">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="list">
+          <ul class="work-list list">
             <li class="item">
               <img
                 src="./images/work-box/box-1.jpg"
@@ -133,7 +135,7 @@
         <section class="section team">
           <div class="container">
           <h2 class="section-title">Наша команда</h2>
-            <ul class="card-set">
+            <ul class="card-set list">
               <li class="team-card">
                 <img
                   class="team-img"
@@ -185,23 +187,24 @@
 
     <!-- FOOTER -->
     
-      <footer class="footer">
-      <div class="container">
+      <footer class="footer no-padding">
+        <div class="container footer-main">
         <a href="./index.html" class="link-logo" aria-label="Логотип сайта Web Studio">
           <p class="logo">Web<span class="footer-logo">Studio</span></p>
         </a>
         <address class="footer-group">
           <p class="contact">г.Киев, пр-т Леси Украинки, 26</p>
-          <ul class="list">
-            <li class="item">
-              <a href="tel+380961111111" class="contact-link">+38 096 111 11 11</a>
-            </li>
+          <ul class="cont-list list">
             <li class="item">
               <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
             </li>
+            <li class="item">
+              <a href="tel+380961111111" class="contact-link">+38 096 111 11 11</a>
+            </li>
+            
           </ul>
         </address>
-      </div>
+        </div>
       </footer>
     </div>
   </body>
